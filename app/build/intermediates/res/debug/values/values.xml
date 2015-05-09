@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/H:/AndroidConnectingToPhpMySQLv4/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">MainScreen</string>
+    <string name="hello">Hello World, AndroidConnectingToPhpMySQLActivity!</string>
+</resources>

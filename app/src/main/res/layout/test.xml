@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:id="@+id/result_text"
+    android:focusable="false"
+    android:background="@android:color/white">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:id="@+id/showImage"
+            android:layout_width="234dp"
+            android:layout_height="234dp"
+            android:src="@+id/img1"
+            android:layout_alignParentLeft="true"
+            android:paddingRight="10dp"
+            />
+        <ImageView
+            android:id="@+id/showImage1"
+            android:layout_width="113dp"
+            android:layout_height="113dp"
+            android:layout_toRightOf="@+id/showImage"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="20dp"
+            />
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="113dp"
+            android:id="@+id/showImage2"
+            android:layout_toRightOf="@id/showImage"
+            android:layout_below="@id/showImage1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            />
+
+    </RelativeLayout>
+
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showName"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="25dip"
+        android:autoText="false"
+        android:textStyle="bold|italic"
+        android:paddingBottom="10dip"/>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showPrice"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="20dip"
+        android:paddingBottom="20dp"
+        android:textSize="20dip"
+        />
+
+    <TextView android:layout_width="fill_parent"
+        android:id="@+id/showDesc"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="20dip"/>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        >
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#dfdfdf"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:paddingBottom="5dp"
+            android:gravity="bottom">
+
+            <RelativeLayout
+                android:id="@+id/tabButton1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:tag="0">
+
+                <ImageView
+                    android:id="@+id/imgTabIcon1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/breakfast_icon_n"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imgTabIcon1"
+                    android:layout_centerHorizontal="true"
+                    android:text="SMS"
+                    android:textSize="10sp"
+                    android:clickable="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/tabButton2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_weight="1"
+
+                android:clickable="true"
+                android:tag="1">
+
+                <ImageView
+                    android:id="@+id/imgTabIcon2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/morn_bf_n"
+                    android:clickable="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imgTabIcon2"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="Email"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/tabButton3"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_weight="1"
+
+                android:clickable="true"
+                android:tag="2">
+
+                <ImageView
+                    android:id="@+id/imgTabIcon3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/lunch_n"
+                    android:clickable="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imgTabIcon3"
+                    android:layout_centerHorizontal="true"
+                    android:text="Call"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/tabButton4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_weight="1"
+
+                android:clickable="true"
+                android:tag="3">
+
+                <ImageView
+                    android:id="@+id/imgTabIcon4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/aftrnoon_snacks_n"
+                    android:clickable="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imgTabIcon4"
+                    android:layout_centerHorizontal="true"
+                    android:text="WebSite"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/tabButton5"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:tag="4">
+
+                <ImageView
+                    android:id="@+id/imgTabIcon5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/dinner_n"
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imgTabIcon5"
+                    android:layout_centerHorizontal="true"
+                    android:text="Map"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

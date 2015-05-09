@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffffff">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/strip"/>
+
+    <!-- Name Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="To join free fill in the below details and our executive will get back to you in 24 hours "
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"
+        android:layout_gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="#ff000000" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/city_name"
+            android:text="City Name"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:textSize="17dip"
+            android:textColor="#ff000000" />
+
+        <!-- Input Name -->
+        <EditText android:id="@+id/inputCity"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView android:layout_width="100dp"
+            android:layout_height="50dp"
+
+            android:text="Company Name"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:textSize="17dip"
+            android:textColor="#ff000000" />
+
+        <!-- Input Name -->
+        <EditText android:id="@+id/inputCompany"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/city_name"
+            android:text="Contact Person"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:textSize="17dip"
+            android:textColor="#ff000000" />
+
+        <!-- Input Name -->
+        <EditText android:id="@+id/inputPerson"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/city_name"
+            android:text="Phone Number"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:textSize="17dip"
+            android:textColor="#ff000000" />
+
+        <!-- Input Name -->
+        <EditText android:id="@+id/inputPhone"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/city_name"
+            android:text="Description"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:textSize="17dip"
+            android:textColor="#ff000000" />
+
+        <!-- Input Name -->
+        <EditText android:id="@+id/inputDesc"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+
+            />
+    </RelativeLayout>
+
+    <!-- Button Create Product -->
+    <Button android:id="@+id/btnCreateProduct"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Create Product"
+        android:background="#ffff9572"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout><!-- From: file:/H:/AndroidConnectingToPhpMySQLv4/app/src/main/res/layout/add_product.xml -->
